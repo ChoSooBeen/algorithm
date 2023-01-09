@@ -19,6 +19,10 @@ public class vowel_count {
                     .replace("O","")
                     .replace("U","");
 
+            /*
+            모음을 모두 공백으로 변경(길이가 0인 공백)
+            모음의 개수 = 입력받은 문자열의 길이 - 모음을 제거한 문자열의 길이
+             */
             System.out.println(s.length()-tmp.length());
             s = bf.readLine();
         }
