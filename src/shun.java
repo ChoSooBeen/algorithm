@@ -9,9 +9,9 @@ public class shun {
         int N = Integer.parseInt(bf.readLine());
 
         int count = 1;
-        int num = 666;
+        int num = 666; //666이 포함된 가장 최저부터 시작
         while(count != N){
-            num++;
+            num++;//하나씩 증가하면서 모든 수를 살펴본다.
             if(String.valueOf(num).contains("666"))
                 count++;
         }
